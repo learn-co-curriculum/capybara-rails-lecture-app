@@ -3,5 +3,5 @@ Rails.application.routes.draw do
   root 'movies#index'
 
   # CRUD routes for Movie
-  resources :movies, only: [:index, :new, :create]
+  resources :movies, only: [:index, :new, :create, :show]
 end
