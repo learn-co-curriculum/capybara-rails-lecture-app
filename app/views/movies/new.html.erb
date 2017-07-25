@@ -1,0 +1,8 @@
+<%= form_for Movie.new do |f| %>
+
+  <%= f.text_field :title %>
+  <%= f.number_field :release_year %>
+
+  <%= f.submit "Create Movie" %>
+
+<% end %>
